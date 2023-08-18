@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @yaribdiaz
-- 👀 I’m interested in web developer
-- 🌱 I’m currently learning about React, APIs and all about Frontend
+- 👀 I’m frontend developer
+- 🌱 I’m currently learning all about web, APIs and all about frontend
 
 
 <h2>📊 Github Stats</h2>
