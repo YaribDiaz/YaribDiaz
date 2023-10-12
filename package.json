@@ -13,7 +13,9 @@
     "@nextui-org/react": "^2.1.13",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -26,6 +28,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3",
+    "tailwindcss-animated": "^1.0.1",
     "vite": "^4.4.5"
   }
 }
