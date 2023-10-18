@@ -1,10 +1,48 @@
  const projects = [
     {
+        id: 6,
+        title: 'MAILO',
+        subtitle: 'Organizador de emails',
+        description: 
+        'Este proyecto consume la API de GMAIL para mostrar los correos con filtros de: Leído, Todos, Sin leer, Enviados, inicias sesión con tu cuenta de Gmail, una vez que inicias sesión te redirige a la pantalla accediendo a tu foto, tu nombre y por supuesto a tus correos. NOTA: El proyecto está en modo de desarrollo así que por el momento aún no se puede probar en el sitio web al menos que estés en la lista de desarrolladores.',
+        link: '',
+        cover:'01-mailo',
+        repository: 'https://github.com/yaribdiaz/MAILO',
+        site: 'https://mailo.netlify.app/',
+        images: [
+            {
+                description:'Podemos acceder a todos los emails ya sean leídos o no leídos, esto mediante una etiqueta en especial que proporciona la documentación de GMAIL, los correos que estén con una etiqueta como Read o bien en español Leído entonces se ilumina de otro color para distinguirlo.' ,
+                image:'01-mailo'
+            },
+            {
+                description:'Al igual que en la imagen anterior en cada sección como Todos, Leídos, Sin Leer, etc... tienen una etiqueta especial para que la API me regrese solamente los correos que corresponden a cada sección, en la aplicación se coloca el remitente, el asunto y una pequeña previsualización del correo tal como en Gmail.' ,
+                image:'03-mailo'
+            },
+            {
+                description:'Aquí se muestran los correos sin leer, un dato interesante es que en la parte superior derecha se logra ver un nombre y una imagen del usuario que inicio sesión, estos viene igualmente de la API.' ,
+                image:'04-mailo'
+            },
+            {
+                description:'Está seleccionada la categoría de Enviados por lo cual se muestran los correos que el usuario ha enviado.' ,
+                image:'05-mailo'
+            },
+            {
+                description:'Es posible visualizar los correos, los correos vienen de forma encriptada por lo que una vez que se obtiene de la API se tiene que desencriptar en base64 para posteriormente plasmarlo ya que viene en algunos casos como un archivo HTML.',
+                image:'07-mailo'
+            },
+            {
+                description:'Para no confundir al usuario con los correos anteriores ya que en lo que carga la información al cambiar la seccion de correos permanecen un momento ahí, se aplica un componente de carga para en cuanto esté lista la información sea mostrada.' ,
+                image:'06-mailo'
+            },
+        ],
+        technologies:["REACT", "VITE", "REDUX TOOLKIT", "HTML5", "TAILWIND", "API's"]
+    },
+    {
         id: 1,
         title: 'QUIZTIFY',
         subtitle: 'Organizador de emails',
         description: 
-        'Un juego en el cual el objetivo es adivinar la canción que se reproduce, las canciones se obtienen de la API de Spotify, escoges una playlist, obtiene las canciones de esta playlist para después escoger una canción de forma aleatoria, cuando llega el momento en que escoges el título de la canción genera 4 posibles respuestas entre ellas la opción correcta, el que adivine más canciones gana.',
+        'Un juego en el cual el objetivo es adivinar la canción que se reproduce, las canciones se obtienen de la API de Spotify, escoges una playlist, obtiene las canciones de esta playlist para después escoger una canción de forma aleatoria, cuando llega el momento en que escoges el título de la canción genera 4 posibles respuestas entre ellas la opción correcta, el que adivine más canciones gana. NOTA: El proyecto está en modo de desarrollo así que por el momento aún no se puede probar en el sitio web al menos que estés en la lista de desarrolladores.',
         link: '',
         cover:'01-quiztify',
         repository: 'https://github.com/yaribdiaz/quiztify',
@@ -118,7 +156,7 @@
         link: '',
         cover:'01-veterinariaReact',
         repository: 'https://github.com/yaribdiaz/MAILO',
-        site: '',
+        site: 'https://veterinaria-yarib.netlify.app/',
         images: [
             {
                 description:'Realizado todo la parte de CSS con Tailwind, puedes agregar pacientes junto con los campos como nombre del propietario, email, fecha de alta y sintomas que presenta.' ,
@@ -143,34 +181,32 @@
         'Consulta API de GMAIL para mostrar los correos con filtros de: Leído, Todos, Borrados, Buscador',
         link: '',
         cover:'01-planificadorGastos',
-        repository: 'https://github.com/yaribdiaz/MAILO',
-        site: '',
+        repository: 'https://github.com/yaribdiaz/Control_de_Gastos-React',
+        site: 'https://helpful-cat-ab5714.netlify.app/',
         images: [
             {
                 description:'' ,
-                image:'02-guitarLAVue'
+                image:'02-planificadorGastos'
+            },
+            {
+                description:'' ,
+                image:'01-planificadorGastos'
+            },
+            {
+                description:'' ,
+                image:'03-planificadorGastos'
+            },
+            {
+                description:'' ,
+                image:'04-planificadorGastos'
+            },
+            {
+                description:'' ,
+                image:'05-planificadorGastos'
             },
         ],
         technologies:["REACT", "VITE", "TAILWIND", "HTML5"]
-    },
-    {
-        id: 6,
-        title: 'MAILO',
-        subtitle: 'Organizador de emails',
-        description: 
-        'Consulta API de GMAIL para mostrar los correos con filtros de: Leído, Todos, Borrados, Buscador',
-        link: '',
-        cover:'01-quiztify',
-        repository: 'https://github.com/yaribdiaz/MAILO',
-        site: '',
-        images: [
-            {
-                description:'' ,
-                image:'02-guitarLAVue'
-            },
-        ],
-        technologies:["API's", "REACT", "VITE", "REDUX TOOLKIT", "HTML5"]
-    },
+    }
 
     
     // {
