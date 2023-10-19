@@ -40,7 +40,7 @@
     {
         id: 1,
         title: 'QUIZTIFY',
-        subtitle: 'Organizador de emails',
+        subtitle: 'Quiz de canciones en Spotify',
         description: 
         'Un juego en el cual el objetivo es adivinar la canción que se reproduce, las canciones se obtienen de la API de Spotify, escoges una playlist, obtiene las canciones de esta playlist para después escoger una canción de forma aleatoria, cuando llega el momento en que escoges el título de la canción genera 4 posibles respuestas entre ellas la opción correcta, el que adivine más canciones gana. NOTA: El proyecto está en modo de desarrollo así que por el momento aún no se puede probar en el sitio web al menos que estés en la lista de desarrolladores.',
         link: '',
@@ -178,30 +178,30 @@
         title: 'GASTOS',
         subtitle: 'Planificador de gastos',
         description: 
-        'Consulta API de GMAIL para mostrar los correos con filtros de: Leído, Todos, Borrados, Buscador',
+        'Planificador de gastos creado en React, utilizando localStorage para persistencia de datos, validaciones, etc... puedes organizarte mejor, visualizando el presupuesto, cuánto se ha gastado y cuánto es lo que hay disponible, así como poder filtrar por categoría de gasto.',
         link: '',
         cover:'01-planificadorGastos',
         repository: 'https://github.com/yaribdiaz/Control_de_Gastos-React',
         site: 'https://helpful-cat-ab5714.netlify.app/',
         images: [
             {
-                description:'' ,
+                description:'Para comenzar se tiene que definir un presupuesto válido.' ,
                 image:'02-planificadorGastos'
             },
             {
-                description:'' ,
+                description:'Cuando hay un presupuesto definido se muestra de esta forma, mostrando el monto disponible y el monto gastado, así como también una barra circular de progreso.' ,
                 image:'01-planificadorGastos'
             },
             {
-                description:'' ,
+                description:'Puede filtrar los gastos según su categoría, así como editar el gasto en caso de cometer algún error al agregarlo, solo hay que deslizarlo de izquierda a derecha.' ,
                 image:'03-planificadorGastos'
             },
             {
-                description:'' ,
+                description:'Tiene la opción de eliminar un gasto deslizando de derecha a izquierda, también puedes reiniciar la app en caso de querer comenzar a organizar otro presupuesto.' ,
                 image:'04-planificadorGastos'
             },
             {
-                description:'' ,
+                description:'La ventana de agregar así como la de editar son iguales solo cambia el texto de la acción que corresponda.' ,
                 image:'05-planificadorGastos'
             },
         ],

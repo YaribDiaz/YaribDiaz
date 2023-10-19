@@ -36,10 +36,10 @@ const Navbar = () => {
           <p className="ml-5 font-Quicksand font-bold text-xl md:text-base text-gray-500">Mi Portafolio</p>
         </div>
         <ul className="mt-10 md:mt-0 flex-col md:flex-row gap-7 md:gap-0 text-lg md:text-base font-Quicksand font-medium md:w-2/5 flex justify-evenly items-center">
-          <HashLink to='/' smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Home</HashLink>
-          <HashLink to='/#aboutMe' smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">About me</HashLink>
-          <HashLink to='/#skills' smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Skills</HashLink>
-          <HashLink to="/#projects" smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Projects</HashLink>
+          <HashLink to='/#profile' smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Inicio</HashLink>
+          <HashLink to='/#aboutMe' smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Acerca de mí</HashLink>
+          <HashLink to='/#skills' smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Habilidades</HashLink>
+          <HashLink to="/#projects" smooth onClick={() => setShowBar(true)} className="text-white cursor-pointer border-b-2 border-white-400/[40%] hover:border-slate-600">Proyectos</HashLink>
         </ul>
       </div>
     </>

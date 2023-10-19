@@ -3,8 +3,8 @@ import yaribPerfil from "../assets/yarib-trabajador.jpg"
 const Profile = () => {
   return (
     <>
-      <div id="profile" className="py-10 flex  items-center justify-center flex-1 animate-fade-up animate-duration-[1000ms] animate-delay-[300ms]">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-5">
+      <div id="profile" className="flex  items-center justify-center flex-1 animate-fade-up animate-duration-[1000ms] animate-delay-[150ms]">
+            <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-5">
                 <div className="animate-rotate-y">
                     <img 
                         src={yaribPerfil} 

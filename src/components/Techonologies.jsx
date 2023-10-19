@@ -4,9 +4,9 @@ import technologies from "../data/technologies"
 const Techonologies = () => {
 
   return (
-    <div id="skills" className="mt-10 py-10 bg-gradient-to-b ">
+    <div id="skills" className="py-10 bg-gradient-to-b ">
         
-        <div className=" flex flex-col items-center justify-center animate-flip-up animate-duration-1000 animate-delay-[300ms] animate-ease-linear">
+        <div className="mt-16 flex flex-col items-center justify-center animate-fade-up animate-duration-[800ms] animate-delay-[150ms]">
             <div className="py-1 px-4 rounded-2xl flex justify-center items-center mb-5 bg-gradient-to-r from-blue-500/[80%] to-blue-500/[60%]">
                 <p 
                     className="font-Quicksand font-medium text-xl  uppercase text-white "
