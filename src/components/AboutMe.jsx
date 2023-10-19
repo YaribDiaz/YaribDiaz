@@ -100,9 +100,7 @@ const AboutMe = () => {
             <Tab key="CV" title="CV" className="font-Quicksand">
                 <Card>
                     <CardBody>
-                        <object data="../assets/CV_Yarib_Diaz.pdf" type="application/pdf" width="100%" height="100%" className="font-Quicksand font-medium">
-                            <p>¡Para visualizar mi CV da clic <a href="./CV_Yarib_Diaz.pdf" target="_blank" className="font-bold underline text-blue-500 text-lg">AQUÍ!</a></p>
-                        </object>
+                            <p className="font-Quicksand font-medium">¡Para visualizar mi CV da clic <a href="./CV_Yarib_Diaz.pdf" target="_blank" className="font-bold underline text-blue-500 text-lg">AQUÍ!</a></p>
                     </CardBody>
                 </Card>             
             </Tab>
