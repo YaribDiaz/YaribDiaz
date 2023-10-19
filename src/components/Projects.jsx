@@ -36,7 +36,7 @@ const Projects = () => {
                       </p>
                     </div>
                     <img 
-                        src={`./${project.cover}.png`} 
+                        src={`./projects/${project.cover}.png`} 
                         alt={`Imagen de proyecto ${project.title}`}
                         width={500}
                         height={350} 
@@ -60,7 +60,7 @@ const Projects = () => {
                               >
 
                                 <img 
-                                  src={tec.img}
+                                  src={`${tec.img}`}
                                   alt=""
                                   width={27}
                                   height={27} 

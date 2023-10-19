@@ -26,7 +26,7 @@ const GalleryProject = ({images, getImageIndex}) => {
       {images?.map((item, index) => (
           <SwiperSlide key={index}>
           <img
-              src={`/${item.image}.png`}
+              src={`/projects/${item.image}.png`}
               alt={`Image of project `}
               className="flex-1  "
           /> 
